@@ -12,6 +12,7 @@ header{
    float: top;
    padding-top: 1em;
    vertical-align: center;
+   align: center;
 }
 
 a:link {
