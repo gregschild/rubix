@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0193)https://rubiks3x3.com/algorithm/?moves=rdRDirdRDiiUirdRDirdRDirdRDirdRDiiUirdRDirdRDiiUirdRDirdRDirdRDirdRDiiU&initrevmove=rdRDrdRDUrdRDrdRDrdRDrdRDUrdRDrdRDUrdRDrdRDrdRDrdRDU&speed=3&bg=DDDDEE -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script async="" src="./analytics.js"></script><script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+	<script language="JavaScript" src="./3d.js"></script>
+	<link rel="stylesheet" type="text/css" href="./3d.css">
+	<title>Saved Rubik's Cube Widget</title>
+	<meta property="og:title" content="Saved Rubik&#39;s Cube Widget">
+	<meta property="og:description" content="Saved 3D Rubik&#39;s Cube widget to demonstrate algorithms and patterns.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://rubiks3x3.com/algorithm/">
+	<meta property="og:image" content="https://rubiks3x3.com/img/ogthumbnail.gif">
+	<meta property="og:site_name" content="Rubiks3x3">
+	<meta name="description" content="This widget was generated and is hosted by Rubik&#39;s 3x3. Visit our website to create similar interactive algorithm widgets for twisty puzzles. Click the little star next to the cube to adjust the current settings.">
+	<meta name="keywords" content="Rubik&#39;s, Cube, scramble, algorithm, 3x3">
+	<link rel="canonical" href="https://rubiks3x3.com/algorithm/">
+</head>
+<body onload="initvariables();" style="background-color: rgb(221, 221, 238);">
+	<div class="wrap">
+		<div class="cube" style="transform: rotateX(340deg) rotateY(340deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);">
+			<div id="cubeFields"><div class="field mezo mezo1 szine4"><span>1</span></div><div class="field mezo mezo2 szine6"><span>2</span></div><div class="field mezo mezo3 szine4"><span>3</span></div><div class="field mezo mezo4 szine6"><span>4</span></div><div class="field mezo mezo5 szine6"><span>5</span></div><div class="field mezo mezo6 szine6"><span>6</span></div><div class="field mezo mezo7 szine2"><span>7</span></div><div class="field mezo mezo8 szine6"><span>8</span></div><div class="field mezo mezo9 szine2"><span>9</span></div><div class="field mezo mezo10 szine6"><span>10</span></div><div class="field mezo mezo11 szine3"><span>11</span></div><div class="field mezo mezo12 szine6"><span>12</span></div><div class="field mezo mezo13 szine3"><span>13</span></div><div class="field mezo mezo14 szine3"><span>14</span></div><div class="field mezo mezo15 szine3"><span>15</span></div><div class="field mezo mezo16 szine3"><span>16</span></div><div class="field mezo mezo17 szine3"><span>17</span></div><div class="field mezo mezo18 szine3"><span>18</span></div><div class="field mezo mezo19 szine3"><span>19</span></div><div class="field mezo mezo20 szine2"><span>20</span></div><div class="field mezo mezo21 szine5"><span>21</span></div><div class="field mezo mezo22 szine2"><span>22</span></div><div class="field mezo mezo23 szine2"><span>23</span></div><div class="field mezo mezo24 szine2"><span>24</span></div><div class="field mezo mezo25 szine2"><span>25</span></div><div class="field mezo mezo26 szine2"><span>26</span></div><div class="field mezo mezo27 szine2"><span>27</span></div><div class="field mezo mezo28 szine6"><span>28</span></div><div class="field mezo mezo29 szine5"><span>29</span></div><div class="field mezo mezo30 szine6"><span>30</span></div><div class="field mezo mezo31 szine5"><span>31</span></div><div class="field mezo mezo32 szine5"><span>32</span></div><div class="field mezo mezo33 szine5"><span>33</span></div><div class="field mezo mezo34 szine5"><span>34</span></div><div class="field mezo mezo35 szine5"><span>35</span></div><div class="field mezo mezo36 szine5"><span>36</span></div><div class="field mezo mezo37 szine5"><span>37</span></div><div class="field mezo mezo38 szine4"><span>38</span></div><div class="field mezo mezo39 szine3"><span>39</span></div><div class="field mezo mezo40 szine4"><span>40</span></div><div class="field mezo mezo41 szine4"><span>41</span></div><div class="field mezo mezo42 szine4"><span>42</span></div><div class="field mezo mezo43 szine4"><span>43</span></div><div class="field mezo mezo44 szine4"><span>44</span></div><div class="field mezo mezo45 szine4"><span>45</span></div><div class="field mezo mezo46 szine1"><span>46</span></div><div class="field mezo mezo47 szine1"><span>47</span></div><div class="field mezo mezo48 szine1"><span>48</span></div><div class="field mezo mezo49 szine1"><span>49</span></div><div class="field mezo mezo50 szine1"><span>50</span></div><div class="field mezo mezo51 szine1"><span>51</span></div><div class="field mezo mezo52 szine1"><span>52</span></div><div class="field mezo mezo53 szine1"><span>53</span></div><div class="field mezo mezo54 szine1"><span>54</span></div></div>
+			<div id="rotLayer">
+			</div>
+		</div>
+	</div>
+	<div id="wrapWidget">
+		<noscript>
+			&lt;h2&gt;Please activate JavaScript to use this page&lt;/h2&gt;
+		</noscript>
+		<div id="editPencil"><a target="_blank" title="Edit" href="https://rubiks3x3.com/algorithm/edit.html?moves=rdRDirdRDiiUirdRDirdRDirdRDirdRDiiUirdRDirdRDiiUirdRDirdRDirdRDirdRDiiU&amp;initrevmove=rdRDrdRDUrdRDrdRDrdRDrdRDUrdRDrdRDUrdRDrdRDrdRDrdRDU&amp;speed=3&amp;bg=DDDDEE">∗</a></div>
+		<div id="algoritmus" style="display: block;"><div id="rotacio0" onclick="eddigkiir(0)">»</div><div id="rotacio1" onclick="eddigkiir(1)">R'</div><div id="rotacio2" onclick="eddigkiir(2)">D'</div><div id="rotacio3" onclick="eddigkiir(3)">R</div><div id="rotacio4" onclick="eddigkiir(4)">D</div><div id="rotacio5" onclick="eddigkiir(5)">-</div><div id="rotacio6" onclick="eddigkiir(6)">R'</div><div id="rotacio7" onclick="eddigkiir(7)">D'</div><div id="rotacio8" onclick="eddigkiir(8)">R</div><div id="rotacio9" onclick="eddigkiir(9)">D</div><div id="rotacio10" onclick="eddigkiir(10)">-</div><div id="rotacio11" onclick="eddigkiir(11)">-</div><div id="rotacio12" onclick="eddigkiir(12)">U</div><div id="rotacio13" onclick="eddigkiir(13)">-</div><div id="rotacio14" onclick="eddigkiir(14)">R'</div><div id="rotacio15" onclick="eddigkiir(15)">D'</div><div id="rotacio16" onclick="eddigkiir(16)">R</div><div id="rotacio17" onclick="eddigkiir(17)">D</div><div id="rotacio18" onclick="eddigkiir(18)">-</div><div id="rotacio19" onclick="eddigkiir(19)">R'</div><div id="rotacio20" onclick="eddigkiir(20)">D'</div><div id="rotacio21" onclick="eddigkiir(21)">R</div><div id="rotacio22" onclick="eddigkiir(22)">D</div><div id="rotacio23" onclick="eddigkiir(23)">-</div><div id="rotacio24" onclick="eddigkiir(24)">R'</div><div id="rotacio25" onclick="eddigkiir(25)">D'</div><div id="rotacio26" onclick="eddigkiir(26)">R</div><div id="rotacio27" onclick="eddigkiir(27)">D</div><div id="rotacio28" onclick="eddigkiir(28)">-</div><div id="rotacio29" onclick="eddigkiir(29)">R'</div><div id="rotacio30" onclick="eddigkiir(30)">D'</div><div id="rotacio31" onclick="eddigkiir(31)">R</div><div id="rotacio32" onclick="eddigkiir(32)">D</div><div id="rotacio33" onclick="eddigkiir(33)">-</div><div id="rotacio34" onclick="eddigkiir(34)">-</div><div id="rotacio35" onclick="eddigkiir(35)">U</div><div id="rotacio36" onclick="eddigkiir(36)">-</div><div id="rotacio37" onclick="eddigkiir(37)">R'</div><div id="rotacio38" onclick="eddigkiir(38)">D'</div><div id="rotacio39" onclick="eddigkiir(39)">R</div><div id="rotacio40" onclick="eddigkiir(40)">D</div><div id="rotacio41" onclick="eddigkiir(41)">-</div><div id="rotacio42" onclick="eddigkiir(42)">R'</div><div id="rotacio43" onclick="eddigkiir(43)">D'</div><div id="rotacio44" onclick="eddigkiir(44)">R</div><div id="rotacio45" onclick="eddigkiir(45)">D</div><div id="rotacio46" onclick="eddigkiir(46)">-</div><div id="rotacio47" onclick="eddigkiir(47)">-</div><div id="rotacio48" onclick="eddigkiir(48)">U</div><div id="rotacio49" onclick="eddigkiir(49)">-</div><div id="rotacio50" onclick="eddigkiir(50)">R'</div><div id="rotacio51" onclick="eddigkiir(51)">D'</div><div id="rotacio52" onclick="eddigkiir(52)">R</div><div id="rotacio53" onclick="eddigkiir(53)">D</div><div id="rotacio54" onclick="eddigkiir(54)">-</div><div id="rotacio55" onclick="eddigkiir(55)">R'</div><div id="rotacio56" onclick="eddigkiir(56)">D'</div><div id="rotacio57" onclick="eddigkiir(57)">R</div><div id="rotacio58" onclick="eddigkiir(58)">D</div><div id="rotacio59" onclick="eddigkiir(59)">-</div><div id="rotacio60" onclick="eddigkiir(60)">R'</div><div id="rotacio61" onclick="eddigkiir(61)">D'</div><div id="rotacio62" onclick="eddigkiir(62)">R</div><div id="rotacio63" onclick="eddigkiir(63)">D</div><div id="rotacio64" onclick="eddigkiir(64)">-</div><div id="rotacio65" onclick="eddigkiir(65)">R'</div><div id="rotacio66" onclick="eddigkiir(66)">D'</div><div id="rotacio67" onclick="eddigkiir(67)">R</div><div id="rotacio68" onclick="eddigkiir(68)">D</div><div id="rotacio69" onclick="eddigkiir(69)">-</div><div id="rotacio70" onclick="eddigkiir(70)">-</div><div id="rotacio71" onclick="eddigkiir(71)">U</div></div>
+		<div id="kontrollerek" style="display: block;">	
+			<div id="buttonok">
+				<div onclick="eddigkiirPrev();" class="prevButton">«</div>
+				<div onclick="playbackAlg();" id="playButton"><div></div></div>
+				<div onclick="pausePlayBack();" class="pauseButton"><div class="first"></div><div class="second"></div></div>
+				<div onclick="stopPlayback();" class="stopButton"><div></div></div>
+				<div onclick="eddigkiirNext();" class="nextButton">»</div>
+			</div>
+			<div id="volumcontroller">
+				<div title="Speed" id="vbar0" style="height: 21px; margin-top: 1px; background-color: rgb(51, 51, 51);" onmouseup="volumecontrolchanged(0)"></div>
+				<div title="Speed" id="vbar1" style="height: 19px; margin-top: 3px; background-color: rgb(51, 51, 51);" onmouseup="volumecontrolchanged(1)"></div>
+				<div title="Speed" id="vbar2" style="height: 17px; margin-top: 5px; background-color: rgb(136, 136, 136);" onmouseup="volumecontrolchanged(2)"></div>
+				<div title="Speed" id="vbar3" style="height: 15px; margin-top: 7px; background-color: rgb(136, 136, 136);" onmouseup="volumecontrolchanged(3)"></div>
+				<div title="Speed" id="vbar4" style="height: 13px; margin-top: 9px; background-color: rgb(136, 136, 136);" onmouseup="volumecontrolchanged(4)"></div>
+				<div title="Speed" id="vbar5" style="height: 11px; margin-top: 11px; background-color: rgb(136, 136, 136);" onmouseup="volumecontrolchanged(5)"></div>
+				<div title="Speed" id="vbar6" style="height: 9px; margin-top: 13px; background-color: rgb(136, 136, 136);" onmouseup="volumecontrolchanged(6)"></div>
+			</div>
+		</div>		
+		<div id="rotation3d" style="display: block;">
+			<div class="rotateButtonz resetXYZ" title="Reset">R</div>
+			<div class="rotateButtonz rotateStop" title="Stop">S</div>
+			<div class="rotateButtonz rotateXview left"><div class="rot_180deg">↲</div></div>
+			<div class="rotateButtonz rotateXiview right"><div class="rot180deg">↳</div></div>
+			
+			<div class="rotateButtonz rotateYview left"><div>↪</div></div>
+			<div class="rotateButtonz rotateYiview right"><div>↩</div></div>
+			
+			<div class="rotateButtonz rotateZview left"><div>↷</div></div>
+			<div class="rotateButtonz rotateZiview right"><div>↶</div></div>
+		</div>
+	</div>
+	<div class="article">
+		<article>
+			<h1>Rubik's 3x3</h1>
+			<p>Create similar 3D Rubik's Cube widgets to demonstrate algorithms and patterns at <a href="https://rubiks3x3.com/" target="_blank">Rubik's 3x3</a>.</p>
+			<p>Click the little star next to the cube to adjust the current settings.</p>
+		</article>
+	</div>
+	<div class="copyright">We use cookies on this website. By continuing to use our website without changing the settings, you are agreeing to our use of cookies.<br>© Rubiks3x3.com<br><a href="https://rubiks3x3.com/terms">Terms and Conditions, Privacy Policy</a></div>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-64609037-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+
+</body></html>

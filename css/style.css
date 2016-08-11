@@ -1,0 +1,72 @@
+body {
+  /*  background-image: repeating-linear-gradient(180deg, #3C72F0, #70B0F7); */
+  background-image: url(./images/bg.jpg);
+  background-repeat: repeat-x;
+  background-size: 100%;
+  background-repeat: repeat-y; }
+
+a:link {
+  color: #FFFFFF; }
+
+a:hover {
+  color: FFFFFF;
+  text-decoration: underline; }
+
+a:active {
+  color: FFFFFF;
+  font-weight: bold; }
+
+#headerimg {
+  width: 150px;
+  height: 150px;
+  vertical-align: bottom;
+  padding-top: 25px;
+  padding-left: 20px;
+  display: inline-block; }
+
+h1 {
+  font-family: verdana;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-shadow: 5px 0 0 #000000;
+  text-align: center; }
+
+h2 {
+  font-family: verdana;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0 #000000; }
+
+p {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #FFFFFF; }
+
+nav {
+  display: inline-block; }
+
+nav ul {
+  font-family: verdana;
+  font-size: 14px;
+  font-color: #FFFFFF; }
+
+nav ul li a:link {
+  color: #FFFFFF; }
+
+.algorithm {
+  font-family: verdana;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #FFFFFF; }
+
+.notation {
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bolder;
+  vertical-align: center;
+  display: inline;
+  align: center;
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */

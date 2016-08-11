@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<!-- saved from url=(1606)https://ad.atdmt.com/as/direct;p=11237203726343;as=0;a=11237203726751;crs=11237203722728;cr=11237203722729;i.ts=1470918416/index.html?click=https%3A//adserver-qcmtc.adtechus.com/adlink%2F5399%2F3506206%2F0%2F529%2FAdId%3D8602121%3BBnId%3D1%3Bguid%3Dc6FUU3D3CA1roFxWJa5ABnHzCVZroVsEc%5FQ5qlcD%3Bitime%3D918414071%3Bkvp36%3Dp36%2D0bqyzzirqc7fpigp%3Bkva%3Dp%2Dpr1tcmtwep1s5%3Bkr14135%3D2429433%3Bkvc%3D915120%3Bkvi%3Dv6xvdqactawk21mkdgbr2w%3Bkr11092%3D2429922%3Bkvl%3D242265%3Bkvs%3D300x600%3Bkp%3D1222144%3Blink%3Dhttps%3A%2F%2Fadclick%2Eg%2Edoubleclick%2Enet%2Faclk%3Fsa%3Dl%26ai%3DCpB%2DoDW%2DsV4yYCYqm7Qbbo4Fwr8DxlEaexbeWrwHAjbcBEAEgAGC7jpqD0AqCARdjYS1wdWItOTcyODk2MjUwODYwMjU5M6AB0JTA8wPIAQmoAwGqBI8BT9DcQY3xzUu4VEbfkmPzq0wXby3ipy1cu9nDFPRvmN%5FFdT05v%2Ds4zHT6QckwHB4M%5FDlOGPMP4GXpRtXhcUnCV81uFFyH3ekEBABm%5FbnWq3c4wUWcdUDhsHeYz6Q9xW7F78Mm5jEQTyMefOKMDUP3BLZvmH1G49IOC8zEXxC2OrF8AjQDfvRzTElm3EiR8h%2DABpXK04Ks4ZGCVKAGIagHpr4b2AcA%26num%3D1%26sig%3DAOD64%5F0bRhD6qxVUxwbVLlITE6u38ydBrQ%26client%3Dca%2Dpub%2D9728962508602593%26adurl%3Dhttp%3A%2F%2Fexch%2Equantserve%2Ecom%2Fr%3Fa%3Dp%2DPR1TcMTWEp1S5%3Blabels%3D%5Fqc%2Eclk%2C%5Fclick%2Eadserver%2Ertb%2C%5Fclick%2Erand%2E2403%3Brtbip%3D91%2E228%2E73%2E37%3Brtbdata2%3DEAAaGVNsYWNrX1Byb3NwZWN0aW5nX0F1ZzIwMTYgju0bKNnkDjCw7Tc6JWh0dHBzOi8vaG93LXRvLXNvbHZlLWEtcnViaXgtY3ViZS5jb21aKGxCUGhYNWRGdlFHTUV1bGF3aHoxQ3BaQnZGcU1FLTRJbEVicXJ5aXl1QcisQ4ABm42GwQ%2DgAQGoAafB%5FAK6AR1DQUVTRUk3eC1vSlJ6WktoREItN0duM19JZnM6McAB2t%5FeAcgBqpfHzOcq2gEWVjZ4dkRRQUNUQXdLMjFNS0RnQlIyd%2DUBk7YwPOgBZJgClMwQqAIGqAIFsAIIugIEW%2DRJJcACAsgCANACzuGG%2D%5Fif98ypAeACAA%3Bredirecturl2%3D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Slack 300x600</title>
+            <link href="./css" rel="stylesheet" type="text/css">
+
+    
+    
+    
+    <style>
+        /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+/*        @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*/
+        body {
+            /* Makes kaleidoscope fullscreen */
+            margin: 0; padding: 0;
+            overflow : hidden;
+            background-color : white;
+            font-family: 'Lato', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            width: 300px;
+            height: 600px;
+        }
+        #container {
+            width: 300px;
+            height: 600px;
+            position: absolute;
+            top:0;
+            background-color: #fff;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        #bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top:0;
+            overflow: hidden;
+            background-image: url(img/calendar.png);
+            background-size: 100%;
+            -webkit-transition:0.6s ease-in-out;
+            -moz-transition:0.6s ease-in-out;
+            transition:0.6s ease-in-out;
+        }
+        .bg-out {
+            -webkit-transform : translateX(-300px);
+        }
+        #endframe {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left:300px;
+            background-image: url(img/cta.png);
+            background-size: 100%;
+            -webkit-transition:0.6s ease-in-out;
+            -moz-transition:0.6s ease-in-out;
+            transition:0.6s ease-in-out;
+        }
+    
+        #logo {
+            background-image: url(img/logo.jpg);
+            position: absolute;
+            width: 192px;
+            height:56px;
+            background-size: 100%;
+            top:111px;
+            left:50%;
+            margin-left: -96px;
+            opacity: 1;
+             -webkit-transition:0.6s 2s  ease-in-out;
+            -moz-transition:0.6s 2s ease-in-out;
+            transition:0.6s 2s ease-in-out;
+        }
+        #button {
+            position: absolute;
+            width: 192px;
+            height:47px;
+            top:452px;
+            line-height: 47px;
+            left:50%;
+            margin-left: -97px;
+            opacity: 1;
+            border-radius: 4px;
+            background-color: #42B189;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+            font-size: 16.84px;
+            border: 1px solid #42B189;
+            font-weight: 400;
+            -webkit-transition:0.6s 2s  ease-in-out, background-color 10ms linear;
+            -moz-transition:0.6s 2s ease-in-out, background-color 10ms linear;
+            transition:0.6s 2s ease-in-out, background-color 10ms linear;
+        }
+        #container:hover #button {
+            background-color: rgba(66,177,137,0.8)
+        }
+        #button-shine {
+          width:20px;
+          height:100%;
+          position: absolute;
+          left:-20px;
+          top:0;
+          background-color: rgba(255,255,255,0.25);
+        }
+        .logo {
+            -webkit-transition:0.2s ease-in-out;
+            -moz-transition:0.2s ease-in-out;
+            transition:0.2s ease-in-out;
+        }
+        #frame {
+            width: 298px;
+            height:598px;
+            border:1px solid #42B189;
+            position: absolute;
+            top:0;
+            z-index: 9;
+            pointer-events:none;
+        }
+        .header {
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height:50px;
+            font-size: 21px;
+            color:#fff;
+            line-height: 50px;
+            background-color: #42B189;
+            text-indent: 12px;
+        }
+
+        .meeting {
+            position: absolute;
+            border-radius: 3px;
+
+            line-height: 45px;
+            height:45px;
+            width:250px;
+            color:#fff;
+            text-indent: 12px;
+            left:55px;
+            -webkit-transition:0.1s ease-in, opacity 0.1s ease-out;
+            -moz-transition:0.1s ease-in, opacity 0.1s ease-out;
+            transition:0.1s ease-in, opacity 0.1s ease-out;
+            -webkit-backface-visibility:hidden;
+            backface-visibility: hidden;
+
+        }
+        .meeting-animation {
+            position: absolute;
+            border-radius: 3px;
+            background-color: #42B189;
+            height:45px;
+            width:250px;
+            color:#fff;
+            top:0;
+            -webkit-transition:0.3s ease-in, opacity 0.6s;
+            -moz-transition:0.3s ease-in, opacity 0.6s;
+            transition:0.3s ease-in, opacity 0.6s;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+
+        #meet-1 {
+            top:128px;
+        }
+        #meet-2 {
+            top:230px;
+        }
+        #meet-3 {
+            top:434px;
+            overflow: hidden;
+        }
+        .shine {
+            width:100px;
+            height:200px;
+            top:-100px;
+            background-color: rgba(255,255,255,0.25);
+            position: absolute;
+            left:-100px;
+            top:0;
+            -webkit-transition:0.6s ease-in;
+            -moz-transition:0.6s ease-in;
+            transition:0.6s ease-in;
+        }
+        #meet-4 {
+            top:281px;
+        }
+        #meet-5 {
+            top:485px;
+        }
+
+        .meetout {
+            -webkit-transform : scale3d(1.1,1.2,1);
+            -moz-transform : scale3d(1.1,1.2,1);
+            transform : scale3d(1.1,1.2,1);
+            opacity: 0;
+            -webkit-backface-visibility: hidden;
+        }
+        .meetanimout {
+            -webkit-transform : scale3d(1.5,2,1.2);
+            -moz-transform : scale3d(1.5,2,1.2);
+            transform : scale3d(1.5,2,1.2);
+            opacity: 0;
+        }
+        .shinein { 
+            -webkit-transform : translateX(550px);
+            -moz-transform : translateX(550px);
+            transform : translateX(550px);
+        }
+
+        .text-holder {
+            position: absolute;
+            width: 100%;
+            font-size: 26px;
+            line-height: 31.2px;
+            text-align: center;
+            top:438px;
+            color: #42454D;
+            opacity:1;
+            -webkit-transition:0.6s ease-in-out;
+            -moz-transition:0.6s ease-in-out;
+            transition:0.6s ease-in-out;
+        }
+        #text-green {
+            color: #42B189;
+        }
+        #text-yellow {
+            color: #EAA900;
+        }
+        #text-blue {
+            color: #80CBDD;
+        }
+        #text-red {
+            color: #E30763;
+        }
+        #end-message {
+            top:242px;
+        }
+
+        #smoke-container {
+            width:250px;
+            height:45px;
+            position: absolute;
+            top:78px;
+            display: none;
+            z-index: 9;
+        }
+        .smoke {
+            width:100px;
+            height:100px;
+            position: absolute;
+        }
+        .smoke img {
+            width: 100%;
+        }
+        #smoke-1 {
+            top:14px;
+            left:20px;
+            -webkit-transform : rotateZ(30deg);
+        }
+        #smoke-2 {
+            top:25px;
+            left:50px;
+            -webkit-transform : rotateZ(60deg);
+        }
+        #smoke-3 {
+            top:30px;
+            left:80px;
+            -webkit-transform : rotateZ(180deg);
+        }
+        #smoke-4 {
+            top:20px;
+            left:110px;
+            -webkit-transform : rotateZ(90deg);
+        }
+        #smoke-5 {
+            top:13px;
+            left:140px;
+            -webkit-transform : rotateZ(210deg);
+        }
+        #smoke-6 {
+            top:28px;
+            left:170px;
+            -webkit-transform : rotateZ(120deg);
+        }
+        #smoke-7 {
+            top:20px;
+            left:200px;
+            -webkit-transform : rotateZ(60deg);
+        }
+        #smoke-8 {
+            top:10px;
+            left:230px;
+            -webkit-transform : rotateZ(210deg);
+        }
+
+        @-webkit-keyframes smokein {
+          0%  { opacity: 1; -webkit-transform : scale3d(0.5, 0.5, 0.5) rotateZ(0); }
+          100% { opacity: 0; -webkit-transform : scale3d(1.2, 1.2, 1.2) rotateZ(40deg); }
+        }
+        @-webkit-keyframes smokein2 {
+          0%  { opacity: 1; -webkit-transform : scale3d(0.5, 0.5, 0.5) rotateZ(-120deg); }
+          100% { opacity: 0; -webkit-transform : scale3d(1.3, 1.3, 1.3) rotateZ(-90deg); }
+        }
+
+        @-moz-keyframes smokein {
+          0%  { opacity: 1; -moz-transform : scale3d(0.5, 0.5, 0.5) rotateZ(0); }
+          100% { opacity: 0; -moz-transform : scale3d(1.2, 1.2, 1.2) rotateZ(40deg); }
+        }
+        @-moz-keyframes smokein2 {
+          0%  { opacity: 1; -moz-transform : scale3d(0.5, 0.5, 0.5) rotateZ(-120deg); }
+          100% { opacity: 0; -moz-transform : scale3d(1.3, 1.3, 1.3) rotateZ(-90deg); }
+        }
+
+        @-ms-keyframes smokein {
+          0%  { opacity: 1; -ms-transform : scale3d(0.5, 0.5, 0.5) rotateZ(0); }
+          100% { opacity: 0; -ms-transform : scale3d(1.2, 1.2, 1.2) rotateZ(40deg); }
+        }
+        @-ms-keyframes smokein2 {
+          0%  { opacity: 1; -ms-transform : scale3d(0.5, 0.5, 0.5) rotateZ(-120deg); }
+          100% { opacity: 0; -ms-transform : scale3d(1.3, 1.3, 1.3) rotateZ(-90deg); }
+        }
+
+        @keyframes smokein {
+          0%  { opacity: 1; transform : scale3d(0.5, 0.5, 0.5) rotateZ(0); }
+          100% { opacity: 0; transform : scale3d(1.2, 1.2, 1.2) rotateZ(40deg); }
+        }
+        @keyframes smokein2 {
+          0%  { opacity: 1; transform : scale3d(0.5, 0.5, 0.5) rotateZ(-120deg); }
+          100% { opacity: 0; transform : scale3d(1.3, 1.3, 1.3) rotateZ(-90deg); }
+        }
+
+
+
+        @-webkit-keyframes shinein {
+          0%  { -webkit-transform : translate3d(0,0,0);}
+          100%  { -webkit-transform : translate3d(250px,0,0);}
+        }
+        @-moz-keyframes shinein {
+          0%  { -moz-transform : translate3d(0,0,0);}
+          100%  { -moz-transform : translate3d(250px,0,0);}
+        }
+        @-ms-keyframes shinein {
+          0%  { -ms-transform : translate3d(0,0,0);}
+          100%  { -ms-transform : translate3d(250px,0,0);}
+        }
+        @keyframes shinein {
+          0%  { -webkit-transform : translate3d(0,0,0);}
+          100%  { -webkit-transform : translate3d(250px,0,0);}
+        }
+
+
+
+        @-webkit-keyframes pulse {
+          0%  { -webkit-transform : scale3d(1,1,1); }
+          30%  { -webkit-transform : scale3d(1.3,1.1,1); }
+          100%  { -webkit-transform : scale3d(1,1,1); }
+        }
+        @-moz-keyframes pulse {
+          0%  { -moz-transform : scale3d(1,1,1); }
+          30%  { -webkit-transform : scale3d(1.3,1.1,1); }
+          100%  { -moz-transform : scale3d(1,1,1); }
+        }
+        @-ms-keyframes pulse {
+          0%  { -ms-transform : scale3d(1,1,1); }
+          30%  { -webkit-transform : scale3d(1.3,1.1,1); }
+          100%  { -ms-transform : scale3d(1,1,1); }
+        }
+        @keyframes pulse {
+          0%  { -webkit-transform : scale3d(1,1,1); }
+          30%  { -webkit-transform : scale3d(1.3,1.1,1); }
+          100%  { -webkit-transform : scale3d(1,1,1); }
+        }
+
+        @-webkit-keyframes pulseout {
+          0%  { -webkit-transform : scale3d(1,1,1); }
+          100%  { -webkit-transform : scale3d(1,1,1); }
+        }
+        @-moz-keyframes pulseout {
+          0%  { -moz-transform : scale3d(1,1,1); }
+          100%  { -moz-transform : scale3d(1,1,1); }
+        }
+        @-ms-keyframes pulseout {
+          0%  { -ms-transform : scale3d(1,1,1); }
+          100%  { -ms-transform : scale3d(1,1,1); }
+        }
+        @keyframes pulseout {
+          0%  { -webkit-transform : scale3d(1,1,1); }
+          100%  { -webkit-transform : scale3d(1,1,1); }
+        }
+
+        .meeting-holder {
+            background-size: 100%;
+            position: absolute;
+            width: 100%;
+            height:100%;
+            top:0;
+        }
+        #meeting-holder-1 {
+            background-image: url(img/copy_1.png);
+        }
+        #meeting-holder-2 {
+            background-image: url(img/copy_2.png);
+        }
+        #meeting-holder-3 {
+            background-image: url(img/copy_4.png);
+                              -ms-transform-origin: 175px 458px; /* IE 9 */
+    -webkit-transform-origin: 175px 458px; /* Chrome, Safari, Opera */
+    transform-origin: 175px 458px;
+        }
+        #meeting-holder-4 {
+            background-image: url(img/copy_3.png);
+        }
+        #meeting-holder-5 {
+            background-image: url(img/copy_5.png);
+        }
+
+
+    </style>
+
+  </head>
+
+  <body marginwidth="0" marginheight="0">
+    <a href="https://adserver-qcmtc.adtechus.com/adlink/5399/3506206/0/529/AdId=8602121;BnId=1;guid=c6FUU3D3CA1roFxWJa5ABnHzCVZroVsEc_Q5qlcD;itime=918414071;kvp36=p36-0bqyzzirqc7fpigp;kva=p-pr1tcmtwep1s5;kr14135=2429433;kvc=915120;kvi=v6xvdqactawk21mkdgbr2w;kr11092=2429922;kvl=242265;kvs=300x600;kp=1222144;link=https://adclick.g.doubleclick.net/aclk?sa=l&amp;ai=CpB-oDW-sV4yYCYqm7Qbbo4Fwr8DxlEaexbeWrwHAjbcBEAEgAGC7jpqD0AqCARdjYS1wdWItOTcyODk2MjUwODYwMjU5M6AB0JTA8wPIAQmoAwGqBI8BT9DcQY3xzUu4VEbfkmPzq0wXby3ipy1cu9nDFPRvmN_FdT05v-s4zHT6QckwHB4M_DlOGPMP4GXpRtXhcUnCV81uFFyH3ekEBABm_bnWq3c4wUWcdUDhsHeYz6Q9xW7F78Mm5jEQTyMefOKMDUP3BLZvmH1G49IOC8zEXxC2OrF8AjQDfvRzTElm3EiR8h-ABpXK04Ks4ZGCVKAGIagHpr4b2AcA&amp;num=1&amp;sig=AOD64_0bRhD6qxVUxwbVLlITE6u38ydBrQ&amp;client=ca-pub-9728962508602593&amp;adurl=http://exch.quantserve.com/r?a=p-PR1TcMTWEp1S5;labels=_qc.clk,_click.adserver.rtb,_click.rand.2403;rtbip=91.228.73.37;rtbdata2=EAAaGVNsYWNrX1Byb3NwZWN0aW5nX0F1ZzIwMTYgju0bKNnkDjCw7Tc6JWh0dHBzOi8vaG93LXRvLXNvbHZlLWEtcnViaXgtY3ViZS5jb21aKGxCUGhYNWRGdlFHTUV1bGF3aHoxQ3BaQnZGcU1FLTRJbEVicXJ5aXl1QcisQ4ABm42GwQ-gAQGoAafB_AK6AR1DQUVTRUk3eC1vSlJ6WktoREItN0duM19JZnM6McAB2t_eAcgBqpfHzOcq2gEWVjZ4dkRRQUNUQXdLMjFNS0RnQlIyd-UBk7YwPOgBZJgClMwQqAIGqAIFsAIIugIEW-RJJcACAsgCANACzuGG-_if98ypAeACAA;redirecturl2=https://ad.atdmt.com/c/go;p=11237203726343;as=0;a=11237203726751;crs=11237203722728;cr=11237203722729;i.ts=1470918416" target="_blank">
+    <div id="container">    
+        
+        <div id="bg" class="bg-out" style="display: block;">
+            <div id="header-1" class="header">Aug 11</div>
+
+            <div id="smoke-container" style="top: 434px; display: none;">
+                <div id="smoke-1" class="smoke" style="animation: smokein2 0.63s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-2" class="smoke" style="animation: smokein 0.7s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-3" class="smoke" style="animation: smokein2 0.65s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-4" class="smoke" style="animation: smokein 0.7s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-5" class="smoke" style="animation: smokein2 0.71s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-6" class="smoke" style="animation: smokein 0.65s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-7" class="smoke" style="animation: smokein2 0.7s forwards;"><img src="./smoke.png"></div>
+                <div id="smoke-8" class="smoke" style="animation: smokein 0.71s forwards;"><img src="./smoke.png"></div>
+            </div>
+
+            <div class="meeting-holder" id="meeting-holder-3" style="animation: pulse 0.6s forwards;">
+                <div class="meeting" id="meet-3">
+                    <div id="shine-3" style="animation: shinein 0.6s forwards;"></div>
+                </div>
+            </div>
+
+            <div class="meeting-holder meetout" id="meeting-holder-1">
+                <div class="meeting" id="meet-1">
+                    <div id="meetanim-1" class="meeting-animation"></div>
+                </div>
+            </div>
+
+            <div class="meeting-holder meetout" id="meeting-holder-2">
+                <div class="meeting" id="meet-2">
+                    <div id="meetanim-2" class="meeting-animation"></div>
+                </div>
+            </div>
+            
+            <div class="meeting-holder meetout" id="meeting-holder-4">
+                <div class="meeting" id="meet-4">
+                    <div id="meetanim-4" class="meeting-animation"></div>
+                </div>
+            </div>
+            <div class="meeting-holder meetout" id="meeting-holder-5">
+                <div class="meeting" id="meet-5">
+                    <div id="meetanim-5" class="meeting-animation"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="endframe" class="bg-out" style="display: block;">
+            <!-- <div id="logo" class="logo"></div>
+            <div id="end-message" class="text-holder"><span id="text-green">25% fewer<br/>meetings,</span> with<br/>the messaging app<br/>for teams.</div>
+            <div id="button" class="logo">
+              <span>Create a team for free</span>
+            </div> -->
+        </div>
+    </div>
+
+    <div id="frame"></div><div id="moatPxDiv644360" style="width: 0px; height: 0px; position: absolute; top: 0px; left: 0px;"><object type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1" height="1" style="position: absolute; width: 1px; height: 1px; z-index: -9999; left: 149px; top: 299px;" id="moatPx0_179273"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="https://z.moatads.com/swf/p6.v3.swf"><param name="quality" value="low"><param name="hasPriority" value="true"><param name="FlashVars" value="sco=Moat%23PSCB78161226&amp;tvs=fr"><param name="bgcolor" value=""><param name="wmode" value="transparent"><embed type="application/x-shockwave-flash" src="https://z.moatads.com/swf/p6.v3.swf" quality="low" flashvars="sco=Moat%23PSCB78161226&amp;tvs=fr" bgcolor="" wmode="transparent" width="1" height="1" id="moatPx0_179273e" name="moatPx0_179273" style="position: absolute; width: 1px; height: 1px; z-index: -9999;left: 0px; top: 0px;" haspriority="true" allowscriptaccess="always" allowfullscreen="false"></object></div><div id="moatPxDiv761113" style="width: 0px; height: 0px; position: absolute; top: 0px; left: 0px;"><object type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1" height="1" style="position: absolute; width: 1px; height: 1px; z-index: -9999;left: 0px; top: 0px;" id="moatPx0_625587"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="https://z.moatads.com/swf/p6.v3.swf"><param name="quality" value="low"><param name="hasPriority" value="true"><param name="FlashVars" value="sco=Moat%23PSCB11693575&amp;tvs=fr"><param name="bgcolor" value=""><param name="wmode" value="transparent"><embed type="application/x-shockwave-flash" src="https://z.moatads.com/swf/p6.v3.swf" quality="low" flashvars="sco=Moat%23PSCB11693575&amp;tvs=fr" bgcolor="" wmode="transparent" width="1" height="1" id="moatPx0_625587e" name="moatPx0_625587" style="position: absolute; width: 1px; height: 1px; z-index: -9999;left: 0px; top: 0px;" haspriority="true" allowscriptaccess="always" allowfullscreen="false"></object></div><div id="moatPxDiv474903" style="width: 0px; height: 0px; position: absolute; top: 0px; left: 0px;"><object type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1" height="1" style="position: absolute; width: 1px; height: 1px; z-index: -9999; left: 299px; top: 599px;" id="moatPx0_93004"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="https://z.moatads.com/swf/p6.v3.swf"><param name="quality" value="low"><param name="hasPriority" value="true"><param name="FlashVars" value="sco=Moat%23PSCB32010970&amp;tvs=fr"><param name="bgcolor" value=""><param name="wmode" value="transparent"><embed type="application/x-shockwave-flash" src="https://z.moatads.com/swf/p6.v3.swf" quality="low" flashvars="sco=Moat%23PSCB32010970&amp;tvs=fr" bgcolor="" wmode="transparent" width="1" height="1" id="moatPx0_93004e" name="moatPx0_93004" style="position: absolute; width: 1px; height: 1px; z-index: -9999;left: 0px; top: 0px;" haspriority="true" allowscriptaccess="always" allowfullscreen="false"></object></div><div id="moatPxDiv880126" style="width: 0px; height: 0px; position: absolute; top: 0px; left: 0px;"><object type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1" height="1" style="position: absolute; width: 1px; height: 1px; z-index: -9999; left: 59px; top: 119px;" id="moatPx0_713048"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="https://z.moatads.com/swf/p6.v3.swf"><param name="quality" value="low"><param name="hasPriority" value="true"><param name="FlashVars" value="sco=Moat%23PSCB52999444&amp;tvs=fr"><param name="bgcolor" value=""><param name="wmode" value="transparent"><embed type="application/x-shockwave-flash" src="https://z.moatads.com/swf/p6.v3.swf" quality="low" flashvars="sco=Moat%23PSCB52999444&amp;tvs=fr" bgcolor="" wmode="transparent" width="1" height="1" id="moatPx0_713048e" name="moatPx0_713048" style="position: absolute; width: 1px; height: 1px; z-index: -9999;left: 0px; top: 0px;" haspriority="true" allowscriptaccess="always" allowfullscreen="false"></object></div><div id="moatPxDiv275418" style="width: 0px; height: 0px; position: absolute; top: 0px; left: 0px;"><object type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1" height="1" style="position: absolute; width: 1px; height: 1px; z-index: -9999; left: 239px; top: 479px;" id="moatPx0_868179"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="false"><param name="movie" value="https://z.moatads.com/swf/p6.v3.swf"><param name="quality" value="low"><param name="hasPriority" value="true"><param name="FlashVars" value="sco=Moat%23PSCB28783094&amp;tvs=fr"><param name="bgcolor" value=""><param name="wmode" value="transparent"><embed type="application/x-shockwave-flash" src="https://z.moatads.com/swf/p6.v3.swf" quality="low" flashvars="sco=Moat%23PSCB28783094&amp;tvs=fr" bgcolor="" wmode="transparent" width="1" height="1" id="moatPx0_868179e" name="moatPx0_868179" style="position: absolute; width: 1px; height: 1px; z-index: -9999;left: 0px; top: 0px;" haspriority="true" allowscriptaccess="always" allowfullscreen="false"></object></div>
+</a>
+
+<script type="text/javascript">
+
+var bg = document.getElementById('bg');
+
+var h1 = document.getElementById('header-1');
+
+var m1 = document.getElementById('meeting-holder-1');
+var m2 = document.getElementById('meeting-holder-2');
+var m3 = document.getElementById('meeting-holder-3');
+var m4 = document.getElementById('meeting-holder-4');
+var m5 = document.getElementById('meeting-holder-5');
+
+var ma1 = document.getElementById('meetanim-1');
+var ma2 = document.getElementById('meetanim-2');
+var ma4 = document.getElementById('meetanim-4');
+var ma5 = document.getElementById('meetanim-5');
+
+var shine3 = document.getElementById('shine-3');
+
+var smoke = document.getElementById('smoke-container');
+var smoke1 = document.getElementById('smoke-1');
+var smoke2 = document.getElementById('smoke-2');
+var smoke3 = document.getElementById('smoke-3');
+var smoke4 = document.getElementById('smoke-4');
+var smoke5 = document.getElementById('smoke-5');
+var smoke6 = document.getElementById('smoke-6');
+var smoke7 = document.getElementById('smoke-7');
+var smoke8 = document.getElementById('smoke-8');
+
+var t2 = document.getElementById('text-2');
+var t3 = document.getElementById('text-3');
+
+var logo = document.getElementById('logo');
+var button = document.getElementById('button');
+var endmessage = document.getElementById('end-message');
+// var buttonshine = document.getElementById('button-shine')
+
+
+function init() {
+    setTime();
+
+    bg.style.display = 'block';
+    endframe.style.display = 'block';
+
+    setTimeout(function() { removeMeetings(); }, 200);
+}
+
+init();
+
+/* DATE */
+
+//add the current date to the calendar
+function setTime() {
+    //get date
+    var date = getTime();
+
+    h1.innerText = date.month + ' ' + date.day;
+}
+
+//get the current day and month
+function getTime() {
+
+    var d = new Date();
+    var n = d.getDate();
+    var m = d.getMonth();
+
+    var mArray = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ]
+
+    date = {
+        day : n,
+        month : mArray[m]
+    }
+
+    return date
+}
+
+function removeMeetings() {
+
+    setTimeout(function() { 
+        m1.classList.add('meetout'); //ma1.classList.add('meetanimout');  
+
+        smoke.style.top = '78px';
+        smoke.style.display = 'block'
+        smoke1.style['-webkit-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-webkit-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-webkit-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-webkit-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-webkit-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-webkit-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-moz-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-moz-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-moz-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-moz-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-moz-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-moz-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-ms-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-ms-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-ms-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-ms-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-ms-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-ms-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['animation'] = 'smokein 0.7s forwards';
+        smoke3.style['animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['animation'] = 'smokein 0.7s forwards';
+        smoke5.style['animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['animation'] = 'smokein 0.65s forwards';
+        smoke7.style['animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['animation'] = 'smokein 0.71s forwards';
+
+        setTimeout(function() { smoke.style.display = 'none' }, 800)
+    }, 4000);
+
+    setTimeout(function() { 
+        m2.classList.add('meetout');  
+        //ma2.classList.add('meetanimout');
+
+        smoke.style.top = '179px';
+        smoke.style.display = 'block'
+        smoke1.style['-webkit-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-webkit-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-webkit-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-webkit-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-webkit-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-webkit-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-moz-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-moz-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-moz-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-moz-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-moz-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-moz-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-ms-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-ms-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-ms-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-ms-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-ms-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-ms-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['animation'] = 'smokein 0.7s forwards';
+        smoke3.style['animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['animation'] = 'smokein 0.7s forwards';
+        smoke5.style['animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['animation'] = 'smokein 0.65s forwards';
+        smoke7.style['animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['animation'] = 'smokein 0.71s forwards';
+
+        setTimeout(function() { smoke.style.display = 'none' }, 800)
+    }, 2000);
+
+    setTimeout(function() { 
+        m3.style['-webkit-animation'] = 'pulse 0.6s forwards';
+        m3.style['-moz-animation'] = 'pulse 0.6s forwards';
+        m3.style['-ms-animation'] = 'pulse 0.6s forwards';
+        m3.style['animation'] = 'pulse 0.6s forwards';
+
+        shine3.style['-webkit-animation'] = 'shinein 0.6s forwards';
+        shine3.style['-moz-animation'] = 'shinein 0.6s forwards';
+        shine3.style['-ms-animation'] = 'shinein 0.6s forwards';
+        shine3.style['animation'] = 'shinein 0.6s forwards';
+
+    }, 6000);
+
+    setTimeout(function() { 
+        m4.classList.add('meetout');  
+        //ma4.classList.add('meetanimout');  
+
+        smoke.style.top = '230px';
+        smoke.style.display = 'block'
+        smoke1.style['-webkit-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-webkit-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-webkit-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-webkit-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-webkit-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-webkit-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-moz-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-moz-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-moz-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-moz-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-moz-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-moz-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-ms-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-ms-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-ms-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-ms-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-ms-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-ms-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['animation'] = 'smokein 0.7s forwards';
+        smoke3.style['animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['animation'] = 'smokein 0.7s forwards';
+        smoke5.style['animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['animation'] = 'smokein 0.65s forwards';
+        smoke7.style['animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['animation'] = 'smokein 0.71s forwards';
+
+        setTimeout(function() { smoke.style.display = 'none' }, 800) 
+
+    }, 3000);
+
+    setTimeout(function() { 
+        m5.classList.add('meetout');  
+        //ma5.classList.add('meetanimout');  
+
+        smoke.style.top = '434px';
+        smoke.style.display = 'block'
+        smoke1.style['-webkit-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-webkit-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-webkit-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-webkit-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-webkit-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-webkit-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-webkit-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-moz-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-moz-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-moz-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-moz-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-moz-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-moz-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-moz-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['-ms-animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke3.style['-ms-animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['-ms-animation'] = 'smokein 0.7s forwards';
+        smoke5.style['-ms-animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['-ms-animation'] = 'smokein 0.65s forwards';
+        smoke7.style['-ms-animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['-ms-animation'] = 'smokein 0.71s forwards';
+
+        smoke1.style['animation'] = 'smokein2 0.63s forwards';
+        smoke2.style['animation'] = 'smokein 0.7s forwards';
+        smoke3.style['animation'] = 'smokein2 0.65s forwards';
+        smoke4.style['animation'] = 'smokein 0.7s forwards';
+        smoke5.style['animation'] = 'smokein2 0.71s forwards';
+        smoke6.style['animation'] = 'smokein 0.65s forwards';
+        smoke7.style['animation'] = 'smokein2 0.7s forwards';
+        smoke8.style['animation'] = 'smokein 0.71s forwards';
+
+        setTimeout(function() { smoke.style.display = 'none' }, 800)
+
+    }, 5000);
+
+    setTimeout(function() { endFrame() }, 7500);
+}
+
+function hideCalendar() {
+
+    bg.style.left = '-300px';
+
+    setTimeout(function() { endFrame(); }, 600);
+}
+
+function endFrame() {
+
+    bg.classList.add('bg-out');
+    endframe.classList.add('bg-out');
+
+    // buttonshine.style['-webkit-animation'] = 'shinein 0.6s 0.6s forwards';
+    // buttonshine.style['-moz-animation'] = 'shinein 0.6s 0.6s forwards';
+    // buttonshine.style['-ms-animation'] = 'shinein 0.6s 0.6s forwards';
+    // buttonshine.style['animation'] = 'shinein 0.6s 0.6s forwards';
+
+    counter++;
+    if (counter < 2) {
+        setTimeout(function() { 
+             resetAd();
+        },4000)
+    }
+}
+
+function resetAd() {
+
+    // buttonshine.style['-webkit-animation'] = 'none';
+    // buttonshine.style['-moz-animation'] = 'none';
+    // buttonshine.style['-ms-animation'] = 'none';
+    // buttonshine.style['animation'] = 'none';
+
+    m1.classList.remove('meetout'); 
+    ma1.classList.remove('meetanimout');
+    m2.classList.remove('meetout');  
+    ma2.classList.remove('meetanimout');
+    //shine3.classList.remove('shinein');
+    m4.classList.remove('meetout');  
+    ma4.classList.remove('meetanimout');
+    m5.classList.remove('meetout');  
+    ma5.classList.remove('meetanimout');
+
+    m3.style['-webkit-animation'] = 'pulseout 0 forwards';
+    m3.style['-moz-animation'] = 'pulseout 0 forwards';
+    m3.style['-ms-animation'] = 'pulseout 0 forwards';
+    m3.style['animation'] = 'pulseout 0 forwards';
+
+        bg.style.display = 'none';
+        endframe.style.display = 'none';
+
+        bg.classList.remove('bg-out');
+        endframe.classList.remove('bg-out');
+
+
+    setTimeout(function() { init(); },400)
+}
+
+var counter = 0;
+
+function log(_val) {
+  console.log(_val)
+}
+
+   </script>
+
+  
+
+
+
+</body></html>
