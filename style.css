@@ -19,13 +19,17 @@ a:link {
 }
 
 a:hover {
-    color: FFFFFF;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
 a:active {
-    color: FFFFFF;
+    color: #FFFFFF;
     font-weight: bold;
+}
+
+a:visited {
+    color: #FFFFFF;
 }
 
 #whitecross{
@@ -78,15 +82,17 @@ nav {
     display: inline-block;
 }
 
+ul {
+  color: white;
+}
+
 nav ul {
   font-family: verdana;
   font-size: 14px;
   font-color: #FFFFFF;
 }
 
-nav ul li a:link {
-  color: #FFFFFF;
-}
+
 
 .algorithm {
   font-family: verdana;
@@ -103,4 +109,37 @@ nav ul li a:link {
   display: inline;
   align: center;
   color: #FFFFFF;
+}
+
+.instruct {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width:450px) and (max-width:880px) {
+
+  #notationbox{
+     background-image: repeating-linear-gradient(-45deg, cyan, blue);
+     border-radius: 25px;
+     border: 2px solid grey;
+     padding: 20px;
+     width: 420px;
+  }
+}
+
+@media (max-width:449px) {
+
+  #notationbox{
+     background-image: repeating-linear-gradient(-45deg, cyan, blue);
+     border-radius: 25px;
+     border: 2px solid grey;
+     padding: 20px;
+     width: 165px;
+     align: center;
+  }
+}
+
+@media (min-width:881px) {
+
+
 }
