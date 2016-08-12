@@ -89,6 +89,17 @@ h2 {
   display: inline-block;
 }
 
+#middlebox{
+  background-image: repeating-linear-gradient(-45deg, cyan, blue);
+  border-radius: 25px;
+  border: 2px solid grey;
+  padding: 20px;
+  max-width: 1000px;
+  display: inline-block;
+}
+
+
+
 
 
 p {
@@ -137,6 +148,14 @@ nav ul {
   padding-left: 40px;
 }
 
+.notation2 {
+  font-family: verdana;
+  font-size: 15px;
+  font-weight: bolder;
+  vertical-align: center;
+  align: center;
+  color: #000000;
+}
 
 
 
