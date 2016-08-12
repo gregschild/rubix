@@ -120,15 +120,6 @@ nav ul {
   color: #FFFFFF
 }
 
-.notation {
-  font-family: verdana;
-  font-size: 15px;
-  font-weight: bolder;
-  vertical-align: center;
-  display: inline;
-  align: center;
-  color: #000000;
-}
 
 .instruct {
   padding-left: 25px;
@@ -145,6 +136,74 @@ nav ul {
   padding-left: 40px;
 }
 
+
+
+
+@media (max-width:450px) {
+
+  #notationbox{
+     background-image: repeating-linear-gradient(-45deg, cyan, blue);
+     border-radius: 25px;
+     border: 2px solid grey;
+     padding: 20px;
+     width: 165px;
+     align: center;
+  }
+}
+
+
+
+@media (max-width:620px) {
+
+  #whitecrossbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 250px;
+    display: inline-block;
+
+  }
+}
+
+
+@media (max-width:900px) {
+  #whitecornerbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 375px;
+    display: inline-block;
+  }
+
+}
+
+@media (max-width:620px) {
+  .notation {
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bolder;
+    vertical-align: center;
+    align: center;
+    color: #000000;
+  }
+}
+
+
+@media (min-width:620px) {
+  .notation {
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bolder;
+    vertical-align: center;
+    display: inline;
+    align: center;
+    color: #000000;
+  }
+
+}
+
 @media (min-width:450px) and (max-width:880px) {
 
   #notationbox{
@@ -157,38 +216,9 @@ nav ul {
 
 }
 
-@media (max-width:449px) {
-
-  #notationbox{
-     background-image: repeating-linear-gradient(-45deg, cyan, blue);
-     border-radius: 25px;
-     border: 2px solid grey;
-     padding: 20px;
-     width: 165px;
-     align: center;
-  }
-  #whitecrossbox{
-    background-image: repeating-linear-gradient(-45deg, cyan, blue);
-    border-radius: 25px;
-    border: 2px solid grey;
-    padding: 20px;
-    width: 320px;
-    display: inline-block;
-
-  }
-
-  #whitecornerbox{
-    background-image: repeating-linear-gradient(-45deg, cyan, blue);
-    border-radius: 25px;
-    border: 2px solid grey;
-    padding: 20px;
-    width: 400px;
-    display: inline-block;
-  }
-}
 
 
-@media (min-width:450px) and (max-width:900px) {
+@media (min-width:620px) and (max-width:900px) {
 
   #whitecrossbox{
     background-image: repeating-linear-gradient(-45deg, cyan, blue);
@@ -199,16 +229,20 @@ nav ul {
     display: inline-block;
 
   }
+}
 
+@media (min-width:900px) {
   #whitecornerbox{
     background-image: repeating-linear-gradient(-45deg, cyan, blue);
     border-radius: 25px;
     border: 2px solid grey;
     padding: 20px;
-    width: 620px;
+    width: 900px;
     display: inline-block;
   }
+
 }
+
 
 @media (min-width:900px) {
 
