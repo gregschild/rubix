@@ -79,6 +79,15 @@ h2 {
   display: inline-block;
 }
 
+#whitecornerbox{
+  background-image: repeating-linear-gradient(-45deg, cyan, blue);
+  border-radius: 25px;
+  border: 2px solid grey;
+  padding: 20px;
+  max-width: 1000px;
+  display: inline-block;
+}
+
 
 
 p {
@@ -133,7 +142,7 @@ nav ul {
 }
 
 .img {
-  padding-left:40px;
+  padding-left: 40px;
 }
 
 @media (min-width:450px) and (max-width:880px) {
@@ -166,7 +175,15 @@ nav ul {
     width: 320px;
     display: inline-block;
 
+  }
 
+  #whitecornerbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 400px;
+    display: inline-block;
   }
 }
 
@@ -182,11 +199,29 @@ nav ul {
     display: inline-block;
 
   }
+
+  #whitecornerbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 620px;
+    display: inline-block;
+  }
 }
 
 @media (min-width:900px) {
 
   #whitecrossbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 900px;
+    display: inline-block;
+  }
+
+  #whitecornerbox{
     background-image: repeating-linear-gradient(-45deg, cyan, blue);
     border-radius: 25px;
     border: 2px solid grey;
