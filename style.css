@@ -1,5 +1,5 @@
 body {
-/*  background-image: repeating-linear-gradient(180deg, #3C72F0, #70B0F7); */
+/*  background-image: repeating-linear-gradient(180deg, cyan, blue); */
     background-image: url(./images/bg.jpg);
     background-repeat: repeat-x;
     background-size: 100%;
@@ -8,7 +8,7 @@ body {
 }
 
 header{
-   background-image: repeating-linear-gradient(90deg, darkblue, black);
+   background-image: repeating-linear-gradient(-45deg, cyan, blue);
    float: top;
    padding-top: 1em;
    vertical-align: center;
@@ -193,7 +193,7 @@ nav ul {
     border-radius: 25px;
     border: 2px solid grey;
     padding: 20px;
-    width: 375px;
+    width: 275px;
     display: inline-block;
   }
 
