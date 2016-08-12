@@ -70,6 +70,15 @@ h2 {
    max-width: 830px;
 }
 
+#whitecrossbox{
+  background-image: repeating-linear-gradient(-45deg, cyan, blue);
+  border-radius: 25px;
+  border: 2px solid grey;
+  padding: 20px;
+  max-width: 1000px;
+  display: inline-block;
+}
+
 
 
 p {
@@ -104,17 +113,27 @@ nav ul {
 
 .notation {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   vertical-align: center;
   display: inline;
   align: center;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .instruct {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.totop {
+  font-family: verdana;
+  font-size: 14px;
+  font-color: #FFFFFF;
+}
+
+.img {
+  padding-left:40px;
 }
 
 @media (min-width:450px) and (max-width:880px) {
@@ -126,6 +145,7 @@ nav ul {
      padding: 20px;
      width: 420px;
   }
+
 }
 
 @media (max-width:449px) {
@@ -138,7 +158,45 @@ nav ul {
      width: 165px;
      align: center;
   }
+  #whitecrossbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 320px;
+    display: inline-block;
+
+
+  }
 }
+
+
+@media (min-width:450px) and (max-width:900px) {
+
+  #whitecrossbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 620px;
+    display: inline-block;
+
+  }
+}
+
+@media (min-width:900px) {
+
+  #whitecrossbox{
+    background-image: repeating-linear-gradient(-45deg, cyan, blue);
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 900px;
+    display: inline-block;
+  }
+}
+
+
 
 @media (min-width:881px) {
 
